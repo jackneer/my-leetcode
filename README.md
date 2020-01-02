@@ -9,3 +9,4 @@
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/):[no6_zigzag.py](no6_zigzag.py)
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/):[no7_reverse_integer.py](no7_reverse_integer.py)
 - [8. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/):[no8_string_to_integer.py](no8_string_to_integer.py)
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/):[no9_palindrome_number.py](no9_palindrome_number.py)
