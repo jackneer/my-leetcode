@@ -17,28 +17,40 @@ def reverse(list, n):
     temp = []
     current = list
     prev = None
+    head = None    
 
-
-    for i in range(n):
-        temp.append(current)
-        current = current.next
+    while True:
+        for i in range(n):
+            if current is not None:
+                temp.append(current)
+                current = current.next
+            else:
+                break
         
-    print(temp)
+        if len(temp) != n:
+            break
 
-    next = None
-    for i in reversed(range(n)):
-        if i == n -1:
-            next = temp[i].next
-            temp[i].next = temp[i - 1]
-            list = temp[i]
-        elif i == 0:
-            temp[i].next = next
-        else:
-            temp[i].next = temp[i - 1]
+        next = None
 
-        print(temp[i])
+        if prev is not None:
+            prev.next = temp[n - 1]
 
-    return list
+        for i in reversed(range(n)):
+            if i == n -1:
+                next = temp[i].next
+                temp[i].next = temp[i - 1]
+                if head is None:
+                    head = temp[i]
+            elif i == 0:
+                temp[i].next = next
+                
+                prev = temp[i]
+            else:
+                temp[i].next = temp[i - 1]        
+        
+        temp = []
+
+    return head
 
 
 def main():
@@ -48,8 +60,12 @@ def main():
     list.next.next.next = ListNode(4)
     list.next.next.next.next = ListNode(5)
 
-    result = reverse(list, 3)
-    print(result.print_all())
+    list = reverse(list, 2)
+    print(list.print_all())
+    # restore list
+    list = reverse(list, 2)
+    list = reverse(list, 3)
+    print(list.print_all())
 
 
 if __name__ == '__main__':
