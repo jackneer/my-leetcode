@@ -1,8 +1,8 @@
 # My Leetcode funs
 
 ## Python
-- [1. Two Sum](https://leetcode.com/problems/two-sum/): [no1_two_sum.py](no1_two_sum.py)
-- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/): [no2_add_two_numbers.py](no2_add_two_numbers.py)
+- [1. Two Sum](https://leetcode.com/problems/two-sum/)：[no1_two_sum.py](no1_two_sum.py)
+- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)：[no2_add_two_numbers.py](no2_add_two_numbers.py)
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/):[no3_longest_substring.py](no3_longest_substring.py)
 - [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/):[no4_median_of_two_sorted_arrays.py](no4_median_of_two_sorted_arrays.py)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/):[no5_find_longest_palindrome.py](no5_find_longest_palindrome.py)
@@ -38,11 +38,11 @@
 - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/):[]()
 - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/):[]()
 - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/):[]()
-- [38. Count and Say](https://leetcode.com/problems/count-and-say/):[]()
-- []():[]()
-- []():[]()
-- []():[]()
-- []():[]()
+- [38. Count and Say](https://leetcode.com/problems/count-and-say/):[TBD]()
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/):[]()
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/):[]()
+- [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/):[]()
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/):[]()
 - []():[]()
 - []():[]()
 - []():[]()
