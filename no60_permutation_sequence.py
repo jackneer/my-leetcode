@@ -1,3 +1,12 @@
+def permutation_sequence(n, k):
+    temp = permutations(list(range(1, n + 1)))
+
+    if k <= len(temp):
+        return ''.join(str(x) for x in temp[k - 1])
+    else:
+        return None
+
+
 def permutations(nums):
     if len(nums) > 2:
         all = []
@@ -17,7 +26,8 @@ def permutations(nums):
 
 
 def main():
-    print(permutations([1, 2, 3]))
+    print(permutation_sequence(3, 3))
+    print(permutation_sequence(4, 9))
 
 
 if __name__ == '__main__':
